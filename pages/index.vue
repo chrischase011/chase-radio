@@ -4,6 +4,8 @@ import { RadioBrowserApi } from "radio-browser-api"
 
 const api = new RadioBrowserApi("chase-radio")
 
+api.setBaseUrl("https://de1.api.radio-browser.info");
+
 const currentPage: any = ref(1)
 const countStations = ref(0)
 const totalPages = ref(60)
@@ -19,7 +21,6 @@ const fetchStations = async () => {
     })
 
     stations.value = response
-    console.log(stations.value)
   }
   catch (error) {
     console.error(error)
@@ -34,6 +35,8 @@ const fetchTotalStations = async () => {
 
     countStations.value = countResponse.length;
     totalPages.value = Math.ceil(countStations.value / 10);
+
+    console.log("BaseURL: " + api.getBaseUrl());
   } catch (error) {
     console.error('Error fetching total stations', error);
   }

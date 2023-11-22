@@ -4,6 +4,7 @@ import { RadioBrowserApi, StationSearchType } from 'radio-browser-api'
 import { onMounted } from 'vue';
 
 const api = new RadioBrowserApi('chase-radio')
+api.setBaseUrl("https://de1.api.radio-browser.info");
 
 const id = useRoute().params.id
 
