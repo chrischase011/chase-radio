@@ -8,8 +8,6 @@ export default defineNuxtConfig({
     },
   ],
   app: {
-    baseURL: "/chase-radio/",
-    buildAssetsDir: 'assets',
     head: {
       link: [
         {

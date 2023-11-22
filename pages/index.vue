@@ -51,9 +51,6 @@ const visiblePages = computed(() => {
     pages.push(i);
   }
 
-  console.log(startPage)
-  console.log(currentPage)
-
   return pages;
 });
 
