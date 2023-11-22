@@ -13,9 +13,9 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <NuxtLink class="nav-link" aria-current="page" to="/">Home</NuxtLink>
+                <NuxtLink class="nav-link" aria-current="page" to="/">Radio Stations</NuxtLink>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none">
                 <NuxtLink class="nav-link" to="#">Radio</NuxtLink>
               </li>
             </ul>
