@@ -1,4 +1,6 @@
 # Nuxt 3 Minimal Starter
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchrischase011%2Fchase-radio.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchrischase011%2Fchase-radio?ref=badge_shield)
+
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +75,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchrischase011%2Fchase-radio.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchrischase011%2Fchase-radio?ref=badge_large)
